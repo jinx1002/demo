@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/bg.jpg);
+}
+.obox{
+	width: 250px;
+	height: 700px;
+	background: white;
+	border-left: solid 5px red;
+	border-right: solid 5px red;
+	margin: 50px auto;
+	box-shadow: 1px 1px 20px 2px;
+	text-align: center;
+}
+.logo{
+	background: white;
+	
+}
+.logo img{
+	width: 80px;
+	background: white;
+	margin-top: 20px;
+}
+.box1{
+	width: 150px;
+	height: 30px;
+	background-image: url(../img/2.png) ;
+	background-repeat: no-repeat;
+	background-size: 150px;
+	color: #B10A34;
+	font-size: 18px;
+	margin: 20px auto;
+}
+

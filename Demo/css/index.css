@@ -2,10 +2,11 @@
 	margin: 0;
 	padding: 0;
 	background-image: url(../img/bg.jpg);
+	text-decoration: none;
 }
 .obox{
 	width: 250px;
-	height: 700px;
+	height: 550px;
 	background: white;
 	border-left: solid 5px red;
 	border-right: solid 5px red;
@@ -18,18 +19,36 @@
 	
 }
 .logo img{
-	width: 80px;
+	width: 50px;
 	background: white;
 	margin-top: 20px;
 }
 .box1{
-	width: 150px;
+	width: 100px;
 	height: 30px;
 	background-image: url(../img/2.png) ;
 	background-repeat: no-repeat;
-	background-size: 150px;
+	background-size: 100px;
 	color: #B10A34;
-	font-size: 18px;
+	font-size: 14px;
 	margin: 20px auto;
+}
+.box2{
+	background: white;
+}
+.box2 img{
+	width: 150px;
+	background: white;
+}
+.box3{
+	width: 150px;
+	height: 50px;
+	background: white;
+	background-image: url(../img/4.png);
+	background-repeat:no-repeat ;
+	background-size: 150px;
+	margin: 20px auto;
+	line-height: 40px;
+	color: #FFD571;
 }
 

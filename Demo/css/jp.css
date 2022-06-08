@@ -13,7 +13,7 @@
 	position: relative;
 	text-align: center;
 }
-.box1 p{
+.box1 span{
 	position: relative;
 	top: 180px;
 }
@@ -49,4 +49,45 @@
 	background-repeat: no-repeat;
 	background-size: 390px;
 	margin-top: 30px;
+}
+.obx {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.box4 {
+	width: 320px;
+	height: 250px;
+	border-radius: 15px;
+	position: fixed;
+	top: 150px;
+	left: 4vh;
+	background: white;
+	display: none;
+}
+
+.box4 * {
+	background: white;
+}
+
+.box4 h3 {
+	border-top: solid 1px #ccc;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.box4 p {
+	margin: 10px;
+}
+
+.box41 {
+	width: 320px;
+	height: 220px;
+	overflow: auto;
+	border-radius: 15px;
 }

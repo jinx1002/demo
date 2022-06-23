@@ -271,7 +271,7 @@
 }
 .box7 {
 	width: 320px;
-	height: 280px;
+	height: auto;
 	border-radius: 15px;
 	position: fixed;
 	top: 150px;
@@ -279,6 +279,7 @@
 	background: white;
 	overflow: hidden;
 	display: none;
+	text-align: center;
 }
 
 .box7 * {
@@ -290,11 +291,17 @@
 	border-radius: 15px;
 	line-height: 50px;
 }
+.box7 h2{
+	color: red;
+}
 .box7 img{
-	width: 150px;
-	margin: 10px 85px;
+	width: 100px;
+	margin: 10px ;
 }
 .box7 .qd{
 	border-radius: 0px;
 	border-top: solid 1px #CCCCCC;
+}
+.box7 div{
+	display: none;
 }

@@ -8,6 +8,7 @@ $(function() {
 		$('.box4').css("display", "none");
 		$('.box5').css("display", "none");
 		$('.box7').css("display", "none");
+		$('.box7 div').css("display", "none");
 	})
 	$('.right').click(function() {
 		$('.obx').css("display", "none");
@@ -36,6 +37,7 @@ $(function() {
 	var x = 3;
 	var y = 4;
 	var img = new Array("sudoku_01.jpg","sudoku_02.jpg","sudoku_03.jpg","sudoku_04.jpg","sudoku_05.jpg","sudoku_06.jpg","sudoku_07.jpg","sudoku_08.jpg");
+	var xx = new Array("xx1","xx2","xx3","xx4","xx5","xx6","xx7","xx8");
 	$('.ks').click(function() {
 		x--;
 		y--;
@@ -47,11 +49,16 @@ $(function() {
 			$('.obx').css("display", "block");
 			$('.box7').css("display", "block");
 		}
-		if (y == 0) {
+		if (y <= 0) {
 			$('.obx').css("display", "block");
 			$('.box5').css("display", "block");
 		}
-		$('b').html(x);
+		
+		$('.box11 b').html(x);
 		$('.box7 img').attr("src","img/"+img[z]+"");
+		$('.'+xx[z]+'').css("display","block");
+		if (z==7) {
+			$('.box7 h2').html('很遗憾');
+		}
 	})
 })
